@@ -68,7 +68,7 @@ const HeroSection = () => {
 
                         {/* social icons  */}
                         <div className="flex  my-15 gap-10 mx-1">
-                           <a href="https://github.com/settings/profile"> <FiGithub className={`h-5 w-5 hover:text-blue-500 transition-all duration-300 ${isDarkMode ? 'text-white' : 'text-gray-950'}`}/></a>
+                           <a href="https://github.com/khoralacam"> <FiGithub className={`h-5 w-5 hover:text-blue-500 transition-all duration-300 ${isDarkMode ? 'text-white' : 'text-gray-950'}`}/></a>
 
                             <a href="https://www.linkedin.com/in/mohammad-naushad-a7642124a/"> <FiLinkedin className={`h-5 w-5 hover:text-blue-500 transition-all duration-300 ${isDarkMode ? 'text-white' : 'text-gray-950'}`}/> </a>
 
