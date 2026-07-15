@@ -198,17 +198,17 @@ const Contact = () => {
             <div className="flex flex-wrap gap-4 my-4">
               <div className={`flex gap-2 items-center border px-4 py-2 rounded-2xl cursor-pointer hover:bg-blue-600 hover:text-white transition-all duration-200 ${isDarkMode ? "border-gray-600 text-gray-200" : "border-gray-900 text-gray-950"}`}>
                 <FiGithub className="text-xl" />
-                <a href="https://github.com/khoralacam"><span className="text-lg">GitHub</span></a>
+                <a target="_blank"rel="noopener noreferrer" href="https://github.com/khoralacam"><span className="text-lg">GitHub</span></a>
               </div>
 
               <div className={`flex gap-2 items-center border px-4 py-2 rounded-2xl cursor-pointer hover:bg-blue-600 hover:text-white transition-all duration-200 ${isDarkMode ? "border-gray-600 text-gray-200" : "border-gray-900 text-gray-950"}`}>
                 <FiLinkedin className="text-xl" />
-                <a href="https://www.linkedin.com/in/mohammad-naushad-a7642124a/"><span className="text-lg">LinkedIn</span></a>
+                <a  target="_blank"rel="noopener noreferrer"href="https://www.linkedin.com/in/mohammad-naushad-a7642124a/"><span className="text-lg">LinkedIn</span></a>
               </div>
 
               <div className={`flex gap-2 items-center border px-4 py-2 rounded-2xl cursor-pointer hover:bg-blue-600 hover:text-white transition-all duration-200 ${isDarkMode ? "border-gray-600 text-gray-200" : "border-gray-900 text-gray-950"}`}>
                 <FiInstagram className="text-xl" />
-                 <a href="https://www.instagram.com/khoralacam?utm_source=qr&igsh=MXV1OXF2YXc5NThlNA%3D%3D"><span className="text-lg">Instagram</span></a>
+                 <a target="_blank"rel="noopener noreferrer"href="https://www.instagram.com/khoralacam?utm_source=qr&igsh=MXV1OXF2YXc5NThlNA%3D%3D"><span className="text-lg">Instagram</span></a>
               </div>
             </div>
 
