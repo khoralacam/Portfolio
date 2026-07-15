@@ -64,8 +64,12 @@ const Navbar = () => {
             {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
           </motion.button>
         </div>
+
+
+
+
         {/* Mobile menu button  */}
-       <div className="md:hidden flex items-center space-x-4">
+       <div className="md:hidden flex items-center space-x-4 mr-2">
         <motion.button
         whileHover={{scale: 1.5}}
         whileTap={{scale: 0.95}}

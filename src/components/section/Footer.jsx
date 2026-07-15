@@ -8,7 +8,7 @@ const Footer = () => {
     <section className={`h-[70vh]  ${isDarkMode ? 'bg-gray-950' : 'bg-white'}`}> 
                
                
-                       <div className="pt-[10rem] mx-2 ">
+                       <div className=" pt-0 md:pt-[10rem] mx-2 ">
                            <div className={`border-t py-40 ${isDarkMode ? 'border-gray-800'  : 'border-gray-950'}`}>
                             <h1 className={`text-3xl text-center font-semibold ${isDarkMode ? 'text-gray-200 ' :'text-gray-950'}`}> <span className="text-blue-500">Let's build something </span> amazing together</h1>
 

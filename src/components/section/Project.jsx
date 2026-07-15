@@ -68,7 +68,7 @@ const Project = () => {
       >
         {/* upper section  */}
          
-        <div className=" mt-[40rem] md:mt-[10rem] flex flex-col justify-center items-center">
+        <div className=" mt-[50rem] md:mt-[10rem] flex flex-col justify-center items-center">
           <h1
             className={`text-lg md:text-xl text-center my-4 md:my-10 ${isDarkMode ? "text-gray-200" : "text-gray-950"}`}
           >
@@ -120,9 +120,9 @@ const Project = () => {
               <motion.div
               ref={projectOne}
                whileHover={{scale: 1.02}}
-              className={`rounded-lg border h-140 w-110 ${isDarkMode ? "bg-gray-900 border-gray-800" : "bg-gray-200 border-gray-300"}`}
+              className={`rounded-lg border h-140 w-90 md:w-110 ${isDarkMode ? "bg-gray-900 border-gray-800" : "bg-gray-200 border-gray-300"}`}
               >
-                <div className="h-80 w-110">
+                <div className=" h-70 w-90 md:h-80 md:w-110">
                         <img  className="h-full w-full rounded-lg" src={e} alt="e-commerce" />
                 </div>
              
@@ -172,9 +172,9 @@ const Project = () => {
                 <motion.div 
                 ref={projectTwo}
                 whileHover={{scale: 1.02}}
-                className={`rounded-lg border h-140 w-110  ${isDarkMode ? "bg-gray-900 border-gray-800" : "bg-gray-200 border-gray-300"}`}
+                className={`rounded-lg border h-140 w-90 md:w-110 ${isDarkMode ? "bg-gray-900 border-gray-800" : "bg-gray-200 border-gray-300"}`}
               >
-                <div className="h-80 w-110">
+                <div className="h-70 w-90 md:h-80 md:w-110">
                 <img className="h-full w-full rounded-lg" src={daskboad} alt="Daskboad" />
                    </div>
                 <div className="mx-4 mt-4">
@@ -220,9 +220,9 @@ const Project = () => {
                  <motion.div
                  ref={projectThree}
                  whileHover={{scale: 1.02}}
-                 className={`rounded-lg h-140 w-110  border ${isDarkMode ? "bg-gray-900 border-gray-800" : "bg-gray-200 border-gray-300"}`}
+                 className={`rounded-lg h-140 w-90 md:w-110  border ${isDarkMode ? "bg-gray-900 border-gray-800" : "bg-gray-200 border-gray-300"}`}
               > 
-              <div className="h-80 w-110">
+              <div className="h-70 w-90 md:h-80 md:w-110">
                 <img className="h-full w-full rounded-lg" src={appleLeanding} alt="AppleLeanding page" />
                 </div>
                 <div className="mx-4 mt-4">

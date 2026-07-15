@@ -74,7 +74,7 @@ const Contact = () => {
       ref={containerRef}
       className={`min-h-screen py-20 w-full ${isDarkMode ? "bg-gray-950" : "bg-white"}`}
     >
-      <div className="mx-4 pt-[10rem] md:pt-[25rem] lg:pt-0 ">
+      <div className="mx-4 pt-[40rem] md:pt-[25rem] lg:pt-0 ">
         <p className={`text-sm text-center ${isDarkMode ? "text-gray-200" : "text-gray-950"} `}>
           Let's Connect
         </p>
