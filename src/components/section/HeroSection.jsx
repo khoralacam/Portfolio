@@ -1,6 +1,6 @@
 import { useTheme } from "../../context/ThemeContext"
 import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
-import me from '../../assets/profile.jpg'
+import me from "../../assets/Profile.jpg";
 import { motion } from 'motion/react'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
