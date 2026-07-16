@@ -31,7 +31,7 @@ const About = () => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: containerRef.current,
-          start: "top 60%",
+          start: "top 40%",
           end: "+=1000",
           toggleActions: 'play none none reverse'
           
@@ -42,32 +42,32 @@ const About = () => {
         opacity: 0,
         y: -200,
       
-        duration: 0.2,
+        duration: 2,
       },).from(myfirstRef.current, {
         opacity: 0,
         y: -200,
-        duration: 0.2,
+        duration: 0.8,
       },).from(mysecondRef.current,{
         opacity: 0,
         y: -200,
-        duration: 0.2,
+        duration: 0.8,
       }).
       from(mythirdRef.current,{
         opacity: 0,
         y: -200,
-        duration: 0.2,
+        duration: 0.8,
       }).from(box1.current,{
         opacity: 0,
         y: -200,
-        duration: 0.2,
+        duration: 0.6,
       }).from(box2.current,{
         opacity: 0,
         y: -200,
-        duration: 0.2,
+        duration: 0.6,
       }).from(box3.current,{
         opacity: 0,
         y: -200,
-        duration: 0.2,
+        duration: 0.6,
       })
 
 

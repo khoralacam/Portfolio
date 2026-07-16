@@ -39,7 +39,7 @@ const Navbar = () => {
             Time to Program
           </span>
         </motion.div>
-
+ 
         {/* desktop Navigation  */}
         <div className="hidden md:flex items-center space-x-8">
 
@@ -48,7 +48,7 @@ const Navbar = () => {
               key={items}
               whileHover={{ y: -2 }}
               onClick={() => scrollToSection(items.toLowerCase())}
-              className={`text-sm uppercase tracking-wider transition-colors ${isDarkMode ? "text-gray-400 hover:text-white" : "text-gray-600 hover:text-gray-900"}`}
+              className={`text-sm uppercase cursor-pointer tracking-wider transition-colors ${isDarkMode ? "text-gray-400 hover:text-white" : "text-gray-600 hover:text-gray-900"}`}
             >
               {items}
             </motion.button>
